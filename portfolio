@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARUN GOLUSU - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TARUN GOLUSU</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A skilled full stack MERN developer with strong foundation in Frontend and Bakend Development. Proficient in crafting robust and scalable web Applications using the MongoDB, Express.js, React.js and Node.js (MERN) stack. Passionate about building intuitive user interfaces and efficient server-side Architectures. Commited to delivering high-quality, Performance-optimised solutions that meet bussiness objectives.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>My Projects</h2>
+        <input type="text" id="projectFilter" placeholder="Filter projects...">
+        <div id="projectList">
+            <div class="project" data-category="web">
+                <h3><a href="">Portfolio Website</a></h3>
+                <p>This portfolio website serves as a personal showcase for my skills, projects,resume and contact information. It is designed to present my work in a clean, user-friendly manner, allowing potential employers or clients to quickly understand my capabilities and experience.</p>
+            </div>
+            <div class="project" data-category="mobile">
+                <h3><a href="">Online Shopping Website</a></h3>
+                <p>Description of your second project.</p>
+            </div>
+            
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>E-mail:</p><a href="mailto:golusutarun@gmail.com?subject=we had @seen your portfolio &body=Message body goes here">golusutarun@gmail.com</a>
+        <p>Linkedin:</p>
+        <a href="https://www.linkedin.com/in/tarungolusu/" target="blank";>My Linkedin Profile</a>
+        <p>Mobile:<br>+91 9390732167</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 TARUN GOLUSU. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
